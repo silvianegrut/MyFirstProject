@@ -4,38 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Organize your time with me</title>
+    <title>organize your time</title>
 </head>
 <body>
+
+   
     <header>
-        <div class="row">
+        <div class="nav">
             
                
-            <ul class="nav-wrapper">
+            <ul class="menu">
                 <li class="active"><a href=""> HOME </a></li>
                 <li> <a href=""> ABOUT </a></li>
-                <li> <a href=""> SILVIA NEGRUT </a></li>
-                
+                <li> <a href=""> EXPLORE </a></li>
+
             </ul>
-
-
-        </div>
+         </div>
+         
 
         <div class="tips">
-            <h1>Best 5 tips in 3 categories:</h1>
-        
+            <h1> Planner:</h1>
 
-        <div class="button">
-            <a href="" class="bt-one">Daily to do</a>
-            <a href="" class="bt-two">Weekly to do</a>
-            <a href="" class="bt-three">Monthly to do</a>
-    
-        </div>
+           
+            <button id="btn1" onclick="firstFunction()">Daily to do</button>
+            <button id="btn2" onclick="secondFunction()">Weekly to do</button>
+            <button id="btn3" onclick="thirdFunction()">Monthly to do</button>
+        
+           
+
         </div>
 
     </header>
  
-</body>    
+</body>   
+
+<script>
+    function firstFunction(){
+        document.getElementById("btn1").innerHTML="->eat healthy and take care of your mind and body"
+
+    }
+    function secondButton(){
+        document.getElementById("btn2").innerHTML="->clean out email inbox";
+
+    }
+
+
+    function thirdFunction(){
+        document.getElementById("btn3").innerHTML="->visit new cool places";
+    }
+</script>
+</html>
     
+
 
 

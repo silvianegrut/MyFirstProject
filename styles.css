@@ -1,55 +1,69 @@
-
+*
 {
     margin: 0;
     padding: 0;
 }
 
 header{
-    background-image: url(images/planner.png);
+    background-image: url(images/rosybrown.png);
     height: 160vh;
     background-size: cover;
     background-position: center;
 
 }
 
-.nav-wrapper
+.nav{
+    height: 80px;
+}
+
+.menu
 {
     float: right;
     list-style: none;
     margin-top: 30px;
 }
 
-.nav-wrapper li
+.menu li
 {
 display: inline-block;
+margin: 10px 5px;
 }
 
-.nav-wrapper li a
+.menu a
 {
     color: black;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
     font-size: 15px;
+   
+    
 }
 
-.nav-wrapper li.active a
+.menu li.active a
 {
     border: 1px solid black;
+    text-decoration: none;
+   font-family: "Work Sans",sans-serif;
+   
 
 }
 
-.nav-wrapper li a:hover
+.menu li a:hover
 {
     border: 1px solid black;
+    color: beige
+    ;
+    
 }
 
 body
 {
-    font-family: sans-serif;
+    font-family: "Work Sans",sans-serif;
 }
 
-.row
+.nav
 {
     max-width: 1750px;
     margin: auto;
@@ -58,56 +72,24 @@ body
 .tips
 {
     position: absolute;
-    width: 950px;
+    text-align: center;
+    font-family: "Work Sans",sans-serif;
+    width: 100%;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-right: 0px;
 }
 
 h1
 {
-    color: darksalmon;
+    color: beige; 
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 45px;
     text-align: center;
-    margin-top: 150px;
-}
-
-.button
-{
-    margin-top: 30px;
-    margin-left: 440px;
-}
-
-.bt
-{
-    border:1px solid black;
-    padding: 10px 30px;
-    color: black;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-
-.bt-one
-{
-    background-color: darksalmon;
-    font-family: "Work sans",sans-serif;
-}
-
-.bt-two
-{
-    background-color: darksalmon;
-    font-family: "Work sans", sans-serif;
-
-}
-
-.bt-three
-{
-    background-color: darksalmon;
-    font-family: "Work sans", sans-serif;
+    margin-top: 200px;
     
 }
+
+
 
 
 
